@@ -5,6 +5,8 @@
 
 <p> No need of API key, No limitation on number of requests. Import the library and <b> Just Do It !<b> </p>
 
+**NOTE: It's recommended to use VPN***
+
 ## Overview
 
 Welcome to our Facebook Scraper! This powerful tool is designed to extract data from public Facebook pages and groups. It's based on [this project](https://github.com/shaikhsajid1111/facebook_page_scraper), with significant modifications for improved results.
