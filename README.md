@@ -10,15 +10,15 @@ Welcome to our Facebook Scraper! This powerful tool is designed to extract data 
 
 The scraper generates CSV files with the following fields:
 
-**- `id`**
-**- `name`**
-**- `shares`**
-**- `comments`**
-**- `content`**
-**- `posted_on`**
-**- `image`**
-**- `post_url`**
-**- `image_content`**
+**- `id`** <br>
+**- `name`** <br>
+**- `shares`** <br>
+**- `comments`** <br>
+**- `content`** <br>
+**- `posted_on`** <br>
+**- `image`** <br>
+**- `post_url`** <br>
+**- `image_content`** <br>
 
 ## Special Focus
 
@@ -33,14 +33,14 @@ pip install pytesseract Pillow
 ```
 ## Tesseract OCR Setup
 
-1-Install Tesseract OCR on your machine. Download it from the official GitHub repository : https://github.com/tesseract-ocr/tessdata
+1-Install Tesseract OCR on your machine. Download it from the official GitHub repository : https://github.com/tesseract-ocr/tessdata <br>
 2-Run the following commands in your terminal to install Tesseract OCR (for macOS):
 
 ```bash
 brew update
 brew install tesseract
 ```
-3-Download the Arabic-trained data file (ara.traineddata) from the Tesseract tessdata repository or directly using this link : https://github.com/tesseract-ocr/tessdata/blob/main/ara.traineddata
+3-Download the Arabic-trained data file (ara.traineddata) from the Tesseract tessdata repository or directly using this link : https://github.com/tesseract-ocr/tessdata/blob/main/ara.traineddata <br>
 4-Save the file locally.
 ```
 sudo cp /path/to/ara.traineddata /usr/local/share/tessdata/
